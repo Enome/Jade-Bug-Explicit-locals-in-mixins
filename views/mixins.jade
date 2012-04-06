@@ -1,0 +1,9 @@
+mixin global()
+
+  // This worked with Jade 0.20.0 but doesn't with 0.22.1
+
+  h1= title
+
+  // To make it work in Jade 0.22.1 you need to add locals
+
+  h1= locals.title
